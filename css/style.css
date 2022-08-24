@@ -1,3 +1,4 @@
+/*-----------------Global css----------------*/
 *{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -25,7 +26,7 @@ h1.section-title {
     font-size: 45px;
     font-weight: 700;
 }
-/*hero section start*/
+/*-----------------------------hero section start-------------------------------*/
 #hero-section{
     background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(57, 41, 53, 0.73)), url(../images/donation13.jpg);
     background-position: center;
@@ -54,9 +55,8 @@ a.btn-link {
     border-radius: 5px;
     padding: 16px 12px;
 }
-.donate-content p {
-    color: #707070;
-}
+
+/*-----------------------------Donate today section start-------------------------------*/
 .choose-amount {
     background-color: #fafafa;
     padding: 50px;
@@ -69,7 +69,6 @@ a.btn-link {
 }
 .choose-amount.active-amount {
     border: 2px solid #FF5959;
-    /* color: #FF5959; */
     background-color: #FFEEEE;
 }
 .active-amount h3 {
@@ -89,6 +88,9 @@ input.input-field {
     width: 750px;
     margin: 50px 0px;
 }
+
+/*-----------------------------donate plan section start-------------------------------*/
+
 .donate-plan-inner-content h3 {
     font-size: 22px;
     margin: 18px 0px;
@@ -115,20 +117,34 @@ input.input-field {
     background-color: #e0d57e1a;
     margin: 0px 20px;
 }
-footer.footer {
-    padding: 50px 0px;
-    background-color: #0B0D17;
+
+/*-----------------------------Fund section start-------------------------------*/
+
+#fund{
+    background-image: url(../images/donation-fund.jpg),linear-gradient(rgb(51, 49, 47),tomato);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    padding: 80px 0px;  
 }
-footer.footer h2 {
-    /* margin-top: 10px; */
-    color: #ff5959;
-    font-size: 30px;
+.fund-inner {
+    padding: 40px;
+    width: 60%;
 }
-footer.footer p {
-     margin-top: 20px;
-    
+.fund-icons {
+    margin-bottom: 20px;
+    display: flex;
+}
+p.fund-details {
+    margin: 20px 0px;
+}
+.single-icon {
+    display: flex;
+    align-items: center;
+    margin: 25px 10px;
 }
 
+/*-----------------------------Newsletter start-------------------------------*/
 
 .form-fields {
     border-radius: 5px;
@@ -152,25 +168,17 @@ input.newsletter-field {
     padding: 16px 12px;
 }
 
-#fund{
-    background-image: url(../images/donation-fund.jpg),linear-gradient(rgb(51, 49, 47),tomato);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;  
-    padding: 80px 0px;  
+footer.footer {
+    padding: 50px 0px;
+    background-color: #0B0D17;
 }
-.fund-inner {
-    padding: 40px;
-    width: 60%;
+footer.footer h2 {
+    color: #ff5959;
+    font-size: 30px;
 }
-.fund-icons {
-    display: flex;
+footer.footer p {
+     margin-top: 20px;
+  
 }
-p.fund-details {
-    margin-top: 20px;
-}
-.single-icon {
-    display: flex;
-    align-items: center;
-    margin: 25px 1px;
-}
+
+
